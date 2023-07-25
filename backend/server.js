@@ -15,7 +15,7 @@ connectDB();
 
 const app = express();
 
-app.use(cors({ credentials: true, origin: "https://mern-stack-8ppm.onrender.com" }));
+app.use(cors({ credentials: true, origin: "https://roaring-starlight-bcef91.netlify.app/" }));
 
 app.use(express.json({ limit: "50mb" }));
 app.use(express.urlencoded({ extended: true }));
