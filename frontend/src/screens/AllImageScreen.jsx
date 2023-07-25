@@ -14,7 +14,7 @@
 
 // 		try {
 // 			const response = await fetch(
-// 				"http://localhost:8080/api/images/user-images",
+// 				"https://mern-stack-8ppm.onrender.com/api/images/user-images",
 // 				{
 // 					method: "GET",
 // 					headers: {
@@ -105,7 +105,7 @@ const AllImagesScreen = () => {
 
 		try {
 			const response = await fetch(
-				"http://localhost:8080/api/images/user-images",
+				"https://mern-stack-8ppm.onrender.com/api/images/user-images",
 				{
 					method: "GET",
 					headers: {
@@ -133,7 +133,7 @@ const AllImagesScreen = () => {
 	const handleImageClick = async (id) => {
 		try {
 			const response = await fetch(
-				`http://localhost:8080/api/images/${id}/views`,
+				`https://mern-stack-8ppm.onrender.com/api/images/${id}/views`,
 				{
 					method: "PUT",
 					headers: {
