@@ -13,7 +13,7 @@ const ImageDetails = ({ match }) => {
 			console.log("I am here");
 			console.log(match.params.id);
 			const response = await fetch(
-				`http://localhost:8080/api/images/image-details/${match.params.id}`,
+				`https://mern-stack-8ppm.onrender.com/api/images/image-details/${match.params.id}`,
 				{
 					method: "GET",
 					headers: {
